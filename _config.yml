@@ -32,6 +32,7 @@ github_username:  jekyll
 # theme: jekyll-so-simple
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -52,5 +53,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-theme: jekyll-theme-hacker
+remote_theme: zivong/jekyll-theme-hydure
